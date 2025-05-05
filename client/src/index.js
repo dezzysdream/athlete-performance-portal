@@ -5,7 +5,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 // Setup ApolloClient
 const client = new ApolloClient({
-  uri: 'https://athlete-performance-portal.onrender.com',   // <-- VERY IMPORTANT
+  uri: 'https://athlete-performance-portal.onrender.com/graphql',   // <-- VERY IMPORTANT
   cache: new InMemoryCache(),
 });
 
